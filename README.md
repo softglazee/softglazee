@@ -1,26 +1,30 @@
-# Azhar
+# Azhar — Full Stack Web Developer, specialized in WordPress
 
-WordPress developer from Multan, Pakistan. I run SoftGlaze, and for 7 years that has meant custom plugins, WooCommerce stores and business websites, built by me personally for clients in the UK, Europe and Pakistan.
+I run SoftGlaze from Multan, Pakistan. A one-person studio, and that's the point.
+
+7 years. 150+ projects under my own name after agency years shipping 200+ more. 60+ WordPress websites, 20+ WooCommerce and Shopify stores, custom web applications in Laravel, PHP and React, a few mobile apps. Every one built by me, for small businesses in the UK, Europe and Pakistan.
+
+**What I do:** WordPress development, custom plugin development, WooCommerce and Shopify store builds, website speed optimization, site rescues, and monthly website maintenance.
 
 ## WordPress core
 
-I contribute to core through the Test Team during the 7.1 cycle. Patch testing, bug reproduction, and root cause work on [Trac](https://core.trac.wordpress.org/). A few things I'm glad are on the public record:
+I contribute through the Test Team during the 7.1 cycle. Patch testing, bug reproduction, root cause work on [Trac](https://core.trac.wordpress.org/). On the public record:
 
-The Media Library filter bar regression ([#65697](https://core.trac.wordpress.org/ticket/65697)). I traced the layout bug to the exact 7.0 changeset that caused it, and that analysis fed into the fix now milestoned for 7.1.
+**[#65697](https://core.trac.wordpress.org/ticket/65697)** — Media Library filter bar regression. I traced it to the exact 7.0 changeset. That analysis fed the fix now milestoned for 7.1.
 
-A REST API failure nobody had reproduced in four months ([#64921](https://core.trac.wordpress.org/ticket/64921)). I built an mu-plugin simulation that turned vague warnings into a confirmed hard 400, and showed the proposed patch didn't actually fix it.
+**[#64921](https://core.trac.wordpress.org/ticket/64921)** — a REST API failure nobody had reproduced in four months. I built an mu-plugin simulation, confirmed a hard 400, and showed the proposed patch didn't fix it.
 
-First-tester reports on Themes, Editor, Media and admin UI tickets ([#64729](https://core.trac.wordpress.org/ticket/64729), [#65491](https://core.trac.wordpress.org/ticket/65491), [#65658](https://core.trac.wordpress.org/ticket/65658), [#65696](https://core.trac.wordpress.org/ticket/65696) and more), always with DevTools evidence and screenshots, not anecdotes.
+**First-tester reports** on [#64729](https://core.trac.wordpress.org/ticket/64729), [#65491](https://core.trac.wordpress.org/ticket/65491), [#65658](https://core.trac.wordpress.org/ticket/65658), [#65696](https://core.trac.wordpress.org/ticket/65696) and more. Always with evidence. Never "works for me."
 
 Full activity: [profiles.wordpress.org/softglaze](https://profiles.wordpress.org/softglaze/)
 
 ## Shipped
 
-[SoftGlaze Maintenance Mode & Coming Soon](https://wordpress.org/plugins/softglaze-maintenance-mode-coming-soon/), live on the WordPress.org directory.
-SoftGlaze PDF Invoices for WooCommerce, approved and arriving next.
+[SoftGlaze Maintenance Mode & Coming Soon](https://wordpress.org/plugins/softglaze-maintenance-mode-coming-soon/) — live on WordPress.org.
+SoftGlaze PDF Invoices for WooCommerce — approved, uploading now.
 A screen recorder extension on the Chrome Web Store.
-10+ private plugins and themes in production on client sites.
+10+ private plugins and custom themes in production.
 
-## Work with me
+## Hire me
 
-I take on WordPress and WooCommerce projects for small businesses. You deal with me directly, start to finish. Find me as **@softglaze** on WordPress.org, Trac, and Making WordPress Slack.
+WordPress and WooCommerce projects for small businesses. You deal with me, start to finish. **@softglaze** on WordPress.org, Trac and Slack.
