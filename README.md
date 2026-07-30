@@ -1,30 +1,42 @@
-# Azhar — Full Stack Web Developer, specialized in WordPress
+Azhar — Full Stack Web Developer, specialized in WordPress
 
-I run SoftGlaze from Multan, Pakistan. A one-person studio, and that's the point.
+I run SoftGlaze from Multan, Pakistan. A small studio: I do the development, and I bring in specialists I've worked with for years when a project needs them.
 
-7 years. 150+ projects under my own name after agency years shipping 200+ more. 60+ WordPress websites, 20+ WooCommerce and Shopify stores, custom web applications in Laravel, PHP and React, a few mobile apps. Every one built by me, for small businesses in the UK, Europe and Pakistan.
+7 years under my own name, after agency years shipping 200+ more. 150+ projects: 60+ WordPress websites, 20+ WooCommerce and Shopify stores, and custom applications in Laravel, PHP and React. Mostly for small businesses in the UK, Europe and Pakistan.
 
-**What I do:** WordPress development, custom plugin development, WooCommerce and Shopify store builds, website speed optimization, site rescues, and monthly website maintenance.
+What I do: WordPress development, custom plugin development, WooCommerce and Shopify store builds, website speed optimization, site rescues, and monthly maintenance.
 
-## WordPress core
+WordPress core
 
-I contribute through the Test Team during the 7.1 cycle. Patch testing, bug reproduction, root cause work on [Trac](https://core.trac.wordpress.org/). On the public record:
+I contribute through the Test Team during the 7.1 cycle. Patch testing, bug reproduction, root cause work on Trac.
 
-**[#65697](https://core.trac.wordpress.org/ticket/65697)** — Media Library filter bar regression. I traced it to the exact 7.0 changeset. That analysis fed the fix now milestoned for 7.1.
+Two props on committed changesets:
 
-**[#64921](https://core.trac.wordpress.org/ticket/64921)** — a REST API failure nobody had reproduced in four months. I built an mu-plugin simulation, confirmed a hard 400, and showed the proposed patch didn't fix it.
+[62854] — Filesystem API: corrected the permissions comparison in WP_Filesystem_Direct::chmod(). My verification also put a regression test into the suite. Props jeremyfelt, softglaze, SergeyBiryukov.
+[62865] — Login and Registration: corrected focus colour for links.
 
-**First-tester reports** on [#64729](https://core.trac.wordpress.org/ticket/64729), [#65491](https://core.trac.wordpress.org/ticket/65491), [#65658](https://core.trac.wordpress.org/ticket/65658), [#65696](https://core.trac.wordpress.org/ticket/65696) and more. Always with evidence. Never "works for me."
+Both came from testing other people's patches, not from writing my own code.
 
-Full activity: [profiles.wordpress.org/softglaze](https://profiles.wordpress.org/softglaze/)
+Other work on the public record:
 
-## Shipped
+#65697 — Media Library filter bar regression. I traced it to the exact 7.0 changeset, and I'm the only tester on the fix now milestoned for 7.1.
+#64921 — a REST API failure nobody had reproduced in four months. I built an mu-plugin simulation, confirmed a hard 400, and showed the proposed patch didn't fix it. Another tester later used the same technique and credited it.
+First-tester reports on #64729, #65491, #65658, #65696, #65605 and more. Always with evidence. Never "works for me."
 
-[SoftGlaze Maintenance Mode & Coming Soon](https://wordpress.org/plugins/softglaze-maintenance-mode-coming-soon/) — live on WordPress.org.
-SoftGlaze PDF Invoices for WooCommerce — approved, uploading now.
-A screen recorder extension on the Chrome Web Store.
-10+ private plugins and custom themes in production.
+Full activity: profiles.wordpress.org/softglaze
 
-## Hire me
+Shipped
+SoftGlaze PDF Invoices for WooCommerce — live on WordPress.org. Invoices, credit notes, packing slips, partial payments, deposits, client e-signature acceptance.
+SoftGlaze Maintenance Mode & Coming Soon — live on WordPress.org. Three modes, ten templates, scheduled switching, access control.
+SoftGlaze Click to Chat — submitted, in the review queue.
+SoftGlaze Browser — Electron + React local browser-profile manager, open source.
+SoftGlaze Screen Recorder — Chrome MV3 extension on the Web Store.
+Driveline — my first public WordPress theme, in development. For driver services and listing sites, with an RTL invoicing plugin aimed at the Gulf market.
 
-WordPress and WooCommerce projects for small businesses. You deal with me, start to finish. **@softglaze** on WordPress.org, Trac and Slack.
+Every premium feature in my plugins is free. No locked buttons, no dashboard ads, no upgrade nags.
+
+Hire me
+
+WordPress and WooCommerce projects for small businesses. You deal with me, start to finish.
+
+softglaze.com · @softglaze on WordPress.org, Trac and Slack
