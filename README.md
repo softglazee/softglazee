@@ -90,7 +90,8 @@ Full activity → [profiles.wordpress.org/softglaze](https://profiles.wordpress.
 | [**3-Step Process Card Grid**](https://wordpress.org/patterns/pattern/3-step-process-card-grid/) · [**Shipping, Returns, Payment**](https://wordpress.org/patterns/pattern/shipping-returns-payment/) | Two block patterns, built standalone against core defaults so they render in any theme | 🟢 Live on the Pattern Directory |
 | [**Warqa**](https://github.com/softglazee/warqa-wordpress-theme) | Block theme. `theme.json` v3, nine templates, 45 patterns, dark variation, bundled fonts. Passed Theme Check across 16,091 tests with zero required and zero warnings | 🕐 Submitted for review |
 | [**SoftGlaze Browser**](https://github.com/softglazee/softglaze-browser) | Electron + React local browser-profile manager with proxy pool | 🟢 Open source |
-| **SoftGlaze Screen Recorder** | Chrome MV3 extension | 🟢 On the Web Store |
+| [**SoftGlaze Inventory Management**](https://github.com/softglazee/Softglaze-inventory-management) | Stock and point of sale for retail and wholesale. One React, Node and Prisma codebase ships to both browser and Windows desktop. Double-entry accounting, and pay-later (udhaar) credit as a first-class flow | 🟢 Open source |
+| [**SoftGlaze Screen Recorder**](https://chromewebstore.google.com/detail/softglaze-screen-recorder/ofjommapkklakbolagajoiklgfldhlmp) | Chrome MV3 extension. Desktop, tab or camera capture with a live annotation layer that stays attached to the page as you scroll. WebM and MP4 export | 🟢 Live on the Chrome Web Store |
 
 > **Every premium feature in my plugins is free.** No locked buttons, no dashboard ads, no upgrade nags.
 
@@ -116,7 +117,7 @@ Full activity → [profiles.wordpress.org/softglaze](https://profiles.wordpress.
 
 ### Get in touch
 
-Open to **full-time remote developer roles**. Also taking WordPress and WooCommerce project work.
+Open to **full-time remote developer roles**.
 
 <p align="left">
   <a href="mailto:azhar@softglaze.com">✉️ azhar@softglaze.com</a> &nbsp;·&nbsp;
