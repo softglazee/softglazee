@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 160" width="1000" height="160" role="img" aria-label="Available for work. Open to full-time remote roles. azhar@softglaze.com">
+  <title>Open to full-time remote roles</title>
+
+  <defs>
+    <linearGradient id="fbg" x1="1" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#158ACB"/>
+      <stop offset="50%" stop-color="#02488C"/>
+      <stop offset="100%" stop-color="#081A2F"/>
+    </linearGradient>
+
+    <filter id="fsoft" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="34"/>
+    </filter>
+
+    <linearGradient id="fglass" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.20"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.05"/>
+    </linearGradient>
+
+    <linearGradient id="frim" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.48"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.28"/>
+    </linearGradient>
+
+    <linearGradient id="faccent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#C9922B"/>
+      <stop offset="50%" stop-color="#158ACB"/>
+      <stop offset="100%" stop-color="#C9922B"/>
+    </linearGradient>
+
+    <clipPath id="fframe"><rect width="1000" height="160" rx="5"/></clipPath>
+
+    <g id="ic-mail" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="0.9" y="2.6" width="12.2" height="8.8" rx="1.2"/>
+      <path d="M1.4 3.6 L7 8 L12.6 3.6"/>
+    </g>
+  </defs>
+
+  <g clip-path="url(#fframe)">
+    <rect width="1000" height="160" fill="url(#fbg)"/>
+
+    <g filter="url(#fsoft)" opacity="0.75">
+      <circle cx="230" cy="140" r="100" fill="#C9922B" opacity="0.4">
+        <animate attributeName="cx" values="230;360;230" dur="15s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="780" cy="20" r="110" fill="#158ACB">
+        <animate attributeName="cy" values="20;70;20" dur="12s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+    <rect x="0" y="0" width="1000" height="4" fill="url(#faccent)">
+      <animate attributeName="opacity" values="0.55;1;0.55" dur="4.5s" repeatCount="indefinite"/>
+    </rect>
+
+    <rect x="40" y="24" width="920" height="112" rx="5" fill="url(#fglass)"/>
+    <rect x="40" y="24" width="920" height="112" rx="5" fill="none" stroke="url(#frim)" stroke-width="1.4"/>
+
+    <g font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" text-anchor="middle">
+
+      <!-- Availability pill, centred: 168 wide, so x = (1000-168)/2 = 416 -->
+      <rect x="416" y="40" width="168" height="26" rx="5" fill="#46B450" fill-opacity="0.16" stroke="#46B450" stroke-opacity="0.55"/>
+      <circle cx="436" cy="53" r="4.2" fill="#5FD167">
+        <animate attributeName="opacity" values="1;0.2;1" dur="2.4s" repeatCount="indefinite"/>
+      </circle>
+      <text x="448" y="57.5" font-size="12" font-weight="600" fill="#C6EBCA" text-anchor="start">Available for work</text>
+
+      <text x="500" y="94" font-size="21" font-weight="700" fill="#ffffff">Open to full-time remote roles</text>
+      <text x="500" y="118" font-size="13.5" font-weight="500" fill="#BBD9F2">azhar@softglaze.com &#183; softglaze.com &#183; @softglaze on WordPress.org</text>
+    </g>
+  </g>
+</svg>
